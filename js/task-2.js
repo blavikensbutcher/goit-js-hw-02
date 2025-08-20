@@ -1,4 +1,4 @@
-const formatMessage = (message: string, maxLength: number): string => {
+const formatMessage = (message, maxLength) => {
   return message.length > maxLength
     ? message.slice(0, maxLength) + "..."
     : message;
